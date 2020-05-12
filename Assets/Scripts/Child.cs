@@ -6,14 +6,24 @@ using static UnityEngine.Random;
 public class Child : MonoBehaviour
 {
 
-    public int speed, decisions, counter;
-    public float attraction;
-
-    public bool move = false;
+    private bool move = false;
+    private int speed, decisions, counter;
+    private float attraction;
 
     private Transform target;
     private Vector2 current;
 
+    // Getters
+    public float getAttraction()
+    {
+        return attraction;
+    }
+
+    // Setters
+    public void SetMove(bool mov)
+    {
+        move = mov;
+    }
 
     // Start is called before the first frame update
     void Awake()
@@ -23,11 +33,6 @@ public class Child : MonoBehaviour
         decisions = Random.Range(300, 500);
         attraction = Random.Range((float).4, (float).8);
         counter = 0;
-    }
-    
-    public void SetMove(bool mov)
-    {
-        move = mov;
     }
 
     // Update is called once per frame
@@ -66,6 +71,4 @@ public class Child : MonoBehaviour
             counter = 3 * decisions;
         }
     }
-
-
 }

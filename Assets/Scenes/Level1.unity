@@ -342,6 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 40474934}
   - component: {fileID: 40474933}
+  - component: {fileID: 40474935}
   m_Layer: 0
   m_Name: Attractor
   m_TagString: attractor
@@ -413,6 +414,18 @@ Transform:
   m_Father: {fileID: 383391462}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &40474935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40474932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e459a1ce061ab14b8ff9d8758acbb8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &59854549
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,11 +472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df897039adfb3f042a06021d1158cd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  decisions: 0
-  counter: 0
-  attraction: 0
-  move: 0
 --- !u!50 &59854552
 Rigidbody2D:
   serializedVersion: 4
@@ -876,11 +884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df897039adfb3f042a06021d1158cd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  decisions: 0
-  counter: 0
-  attraction: 0
-  move: 0
 --- !u!50 &167747707
 Rigidbody2D:
   serializedVersion: 4
@@ -2757,11 +2760,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df897039adfb3f042a06021d1158cd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  decisions: 0
-  counter: 0
-  attraction: 0
-  move: 0
 --- !u!50 &564812939
 Rigidbody2D:
   serializedVersion: 4
@@ -3284,11 +3282,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df897039adfb3f042a06021d1158cd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  decisions: 0
-  counter: 0
-  attraction: 0
-  move: 0
 --- !u!50 &775809439
 Rigidbody2D:
   serializedVersion: 4
@@ -4449,11 +4442,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df897039adfb3f042a06021d1158cd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  decisions: 0
-  counter: 0
-  attraction: 0
-  move: 0
 --- !u!50 &1011452672
 Rigidbody2D:
   serializedVersion: 4
@@ -5614,11 +5602,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df897039adfb3f042a06021d1158cd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  decisions: 0
-  counter: 0
-  attraction: 0
-  move: 0
 --- !u!50 &1296576900
 Rigidbody2D:
   serializedVersion: 4
@@ -6022,11 +6005,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df897039adfb3f042a06021d1158cd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  decisions: 0
-  counter: 0
-  attraction: 0
-  move: 0
 --- !u!50 &1423730815
 Rigidbody2D:
   serializedVersion: 4
@@ -6337,11 +6315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df897039adfb3f042a06021d1158cd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  decisions: 0
-  counter: 0
-  attraction: 0
-  move: 0
 --- !u!50 &1468791725
 Rigidbody2D:
   serializedVersion: 4
