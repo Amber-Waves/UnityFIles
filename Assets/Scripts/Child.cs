@@ -30,7 +30,7 @@ public class Child : MonoBehaviour
     {
         target = GameObject.FindGameObjectWithTag("attractor").GetComponent<Transform>();
         speed = Random.Range(3, 6);
-        decisions = Random.Range(300, 500);
+        decisions = Random.Range(150, 300);
         attraction = Random.Range((float).4, (float).8);
         counter = 0;
     }
